@@ -1,20 +1,20 @@
-//@import url(https://fonts.googleapis.com/css?family=Petrona|Orbitron:400,500,700,900);
+//@import url(https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Petrona|Orbitron:400,500,700,900);
 
-@mainFont: ~"'Orbitron', serif;";
-@accentFont: ~"'Petrona', sans-serif;";
+@mainFont: ~"'Jacques Francois Shadow', cursive;";
+@accentFont: ~"'Petrona', serif;";
 @textFont: ~"'Open Sans', sans-serif;";
 
-@h1Color: firebrick;
-@h1ShadowColor: forestgreen;
+@h1Color: white;
+@h1ShadowColor: black;
 
-@h2Color: darkgreen;
-@h2ShadowColor: darkred;
+@h2Color: #6441A5;
+@h2ShadowColor: white;
 
 @h3Color: darkgreen;
 @h3ShadowColor: limegreen;
 
-@navColor: forestgreen;
-@navColorHover: firebrick;
+@navColor: #6441A5;
+@navColorHover: #9983C1;
 
 @navBackgroundColor: #E7E7E7;
 @navBackgroundColorHover: lightgrey;
@@ -140,7 +140,7 @@ ul.nav li a {
 }
 
 h1 {
-  font-family: Orbitron;
+  font-family: 'Jacques Francois Shadow';
   font-weight: 900;
   color: @h1Color !important;
   text-shadow: 2px 1px 2px @h1ShadowColor;
@@ -191,7 +191,7 @@ p {
 .jumbotron {
 
   padding-top: 45;
-  //height:425px;
+  height:725px;
   margin-top: 55px;
   margin-bottom: 5px;
   // background-image: url(http://i.imgur.com/IeZm7MT.jpg);
@@ -199,6 +199,7 @@ p {
   position: relative;
   width: 100%;
   background-size: cover;
+  background: linear-gradient(135deg, black, #9983C1);
 }
 #link {
   color: @textColor;
