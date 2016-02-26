@@ -14,7 +14,7 @@ $(document).ready(function () {
 
   testUsers.forEach(function (element, index, array) {
 
-    $.getJSON('https://api.twitch.tv/kraken/streams/' + testUsers[element], function (data) {
+    $.getJSON('https://api.twitch.tv/kraken/streams/' + element + '?callback=?', function (data) {
       console.log('https://api.twitch.tv/kraken/streams/' + element);
       console.log(data);
       testUserData.push(data);
