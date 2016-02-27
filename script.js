@@ -37,7 +37,7 @@ $(document).ready(function () {
             data.display_name +
             ' : ' +
             '</strong>' +
-            '<a href="' +
+            '<a target="_blank" href="' +
             data.url +
             '">' +
             streamStatus +
