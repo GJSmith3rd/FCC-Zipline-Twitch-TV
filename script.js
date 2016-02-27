@@ -26,7 +26,7 @@ $(document).ready(function () {
           var alertClass = data.status !== null ? 'alert-success' : 'alert-default';
           var streamContent = data.status !== null ? 'now streaming' : 'stream offline';
           var streamStatus = data.status !== null ? data.status : '';
-          var logo = data.logo !== null ? data.logo : 'http://i.imgur.com/5Ia41S4.png';
+          var logo = data.logo !== null ? data.logo : 'http://res.cloudinary.com/mobilecreature/image/upload/v1456543488/FreeCodeCamp/Ziplines/Twitch-TV/5Ia41S4.png';
 
           $('<li class="list-group-item">' +
             '<img width="25" height="25" src="' +
