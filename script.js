@@ -19,8 +19,6 @@ $(document).ready(function () {
 
       success: function (data) {
 
-        console.log(data);
-
         if (data.status !== 422) {
 
           var alertClass = data.status !== null ? 'alert-success' : 'alert-default';
@@ -28,20 +26,22 @@ $(document).ready(function () {
           var streamStatus = data.status !== null ? data.status : '';
           var logo = data.logo !== null ? data.logo : 'http://res.cloudinary.com/mobilecreature/image/upload/v1456543488/FreeCodeCamp/Ziplines/Twitch-TV/5Ia41S4.png';
 
-          $('<li class="list-group-item">' +
-            '<img width="25" height="25" src="' +
-            logo +
-            '" />' +
+          $('<li class="clearfix list-group-item">' +
             ' ' +
             '<strong>' +
             data.display_name +
-            ' : ' +
+            ': ' +
             '</strong>' +
             '<a target="_blank" href="' +
             data.url +
             '">' +
             streamStatus +
             '</a>' +
+            '<br>' +
+            '<img width="35" height="35" src="' +
+            logo +
+            '" />' +
+
             '<span class="badge ' +
             alertClass +
             '">' +
@@ -52,10 +52,16 @@ $(document).ready(function () {
 
         } else {
 
-          console.log(element);
-
-          $('<li class="list-group-item">' +
+          $('<li class="clearfix list-group-item">' +
+            ' ' +
+            '<strong>' +
             element +
+            '</strong>' +
+            '<br>' +
+
+            '<img width="35" height="35" src="' +
+            'http://res.cloudinary.com/mobilecreature/image/upload/v1456607682/FreeCodeCamp/Ziplines/Twitch-TV/images.jpg' +
+            '" />' +
             '<span class="badge alert-danger">' +
             'account invalid' +
             '</span>' +
