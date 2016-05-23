@@ -1,8 +1,8 @@
-# [Twitch-TV](http://codepen.io/GJSmith3rd/full/qZWMoR/)
+# [Twitch-TV](http://s.codepen.io/GJSmith3rd/debug/qZWMoR/)
 --------------------------------
 #### A FreeCodeCamp Project.
 
-[mobileCreature Web Design Studio](http://mobilecreature.github.io/)
+[mobileCreature Web Design Studio](http://mobilecreature.github.io/) - Hosted on GitHub.io
 --------------------------------
 A mobileCreature and Gilbert Smith project.
 
