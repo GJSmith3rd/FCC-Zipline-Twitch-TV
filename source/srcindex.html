@@ -10,21 +10,20 @@
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Petrona|Orbitron:400,500,700,900" rel="stylesheet"
-  type="text/css">
+    type="text/css">
 
   <title>Twitch TV</title>
 
-  <meta application="Wikipedia Viewer">
+  <meta application="Twitch TV">
   <meta name="description" content="Twitch TV App featuring live coding streams via API's">
   <meta name="Author" content="Gilbert Joseph Smith III">
   <meta name="Author" content="GJSmith3rd">
   <meta name="Author" content="mobileCreature">
-
-
-
+  <meta name="License" content="MIT">
 
   <!-- Favicon -->
-  <link rel="icon" href="http://res.cloudinary.com/mobilecreature/image/upload/v1456543906/GJSmith3rd/Favicons/fZpm3YM.jpg" />
+  <link rel="shortcut icon" href="http://res.cloudinary.com/mobilecreature/image/upload/v1462990046/GJSmith3rd/Favicons/favicon.ico">
+  <link rel="icon" type="image/gif" href="http://res.cloudinary.com/mobilecreature/image/upload/v1462990061/GJSmith3rd/Favicons/animated_favicon1.gif">
 
   <!-- Latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
@@ -39,7 +38,25 @@
 
   <link rel="stylesheet" href="styles.css" />
 
+  <!--GA Code-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-78151137-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+  <!--Google Page Level Ads-->
+  <script class="adsense" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9672169971192466",
+    enable_page_level_ads: true
+  });
+  </script>
 
 
   <!-- jQuery injected scripts for local css or less -->
@@ -64,7 +81,7 @@
       <!--begin NAVBAR header and collapsed navbar-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-        aria-controls="#navbar">
+          aria-controls="#navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -131,6 +148,35 @@
   </div>
   <!--container-fluid -->
 
+  <!--begin row-->
+  <div class="row adsense">
+
+    <!--begin col-->
+    <div class="col-lg-12 text-center">
+
+      <!--begin alert-->
+      <div class="alert alert-default alert-dismissable adsense">
+
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+        <div class="adsense">
+
+
+          <!-- Twitch-TV 300x250 -->
+          <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9672169971192466" data-ad-slot="6380638479"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+
+      </div>
+      <!--end alert-->
+    </div>
+    <!--end column-->
+
+  </div>
+  <!-- /.row -->
+
 
   <!--begin FOOTER container-->
   <div class="container ">
@@ -164,7 +210,7 @@
       <p id="footer">Copyright © mobileCreature 2015 -
         <script>
           document.write(new Date().getFullYear());
-        </script>. All Rights Reserved.
+        </script>. All Rights Reserved. License (MIT).
       </p>
 
     </div>
