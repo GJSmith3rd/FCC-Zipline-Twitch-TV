@@ -11,7 +11,7 @@
         "catch"
     ],
     "requireOperatorBeforeLineBreak": true,
-//    "requireCamelCaseOrUpperCaseIdentifiers": true',
+    "requireCamelCaseOrUpperCaseIdentifiers": false,
     "maximumLineLength": {
       "value": 250,
       "allowComments": true,
@@ -39,8 +39,7 @@
     ],
     "requireSpaceBeforeBinaryOperators": [
         "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
-        "&=", "|=", "^=", "+=",
-
+        "&=", "|=", "^=",
         "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
         "|", "^", "&&", "||", "===", "==", ">=",
         "<=", "<", ">", "!=", "!=="
@@ -59,11 +58,9 @@
     // },
 
     "disallowMultipleLineBreaks": true,
-
     "disallowCommaBeforeLineBreak": null,
     "disallowDanglingUnderscores": null,
     "disallowEmptyBlocks": null,
-    "disallowMultipleLineStrings": null,
     "disallowTrailingComma": null,
     "requireCommaBeforeLineBreak": null,
     "requireDotNotation": null,

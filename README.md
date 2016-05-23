@@ -1,4 +1,4 @@
-# [Twitch-TV](http://s.codepen.io/GJSmith3rd/debug/qZWMoR/)
+# [Twitch-TV](http://s.codepen.io/GJSmith3rd/debug/qZWMoR/) - hosted on CodePen.io
 --------------------------------
 #### A FreeCodeCamp Project.
 
